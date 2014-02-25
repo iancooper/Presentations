@@ -1,0 +1,21 @@
+From Mud To Structure (see POSA Volume 1) Chapter 2
+"		* The Layers pattern helps to structure applications that can be decomposed into groups of subtasks in which each group of subtasks is at a particular level of abstraction.
+    * The Pipes and Filters pattern provides a structure for systems that process a stream of data. Each processing step is encapsulated in a filter component. Data is passed through pipes between adjacent filters. Recombining filters allows you to build families of related systems.
+    * The Blackboard pattern pattern is useful for problems for which no deterministic solution strategies are known. In Blackboard several specialized subsystems assemble their knowledge to build a possibly partial or approximate solution."
+
+Structural
+--------------
+Layers
+ - Include Hexagonal Architecture
+Pipes and Filters
+Blackboard
+
+Distributed
+-----------
+Broker
+Reactor? What is our Event Consumer component equivalent?
+
+Inetarctive (might not get to these)
+-----------
+MVC
+Presentation-Absrtaction-Control
