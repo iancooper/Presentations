@@ -1,3 +1,5 @@
+Architectural Styles
+
 From Mud To Structure (see POSA Volume 1) Chapter 2
 "		* The Layers pattern helps to structure applications that can be decomposed into groups of subtasks in which each group of subtasks is at a particular level of abstraction.
     * The Pipes and Filters pattern provides a structure for systems that process a stream of data. Each processing step is encapsulated in a filter component. Data is passed through pipes between adjacent filters. Recombining filters allows you to build families of related systems.
@@ -5,8 +7,9 @@ From Mud To Structure (see POSA Volume 1) Chapter 2
     
 See also, From Mud to Structure (see POSA Volume 4)
 
-Structural
+Styles
 --------------
+<<<<<<< HEAD
 Domain Model
 Layers
  - Include Hexagonal Architecture/Microkernel
@@ -14,7 +17,27 @@ Layers
  - Command Processor, see POSA 4, ch. 14
 Pipes and Filters
  - Also likely mentioned as pattern above in Command Processor, but as architecture here
+=======
+DataFlow
+--------
+Pipes and Filters
+ - POSA Volume 1 - pattern descripton (http://my.safaribooksonline.com/9781118725269/c03_s5_htm?percentage=0.411320&reader=html#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODExMTg3MjUyNjklMkZjMDJfczJfaHRtJnF1ZXJ5PXJlcG9zaXRvcnk=)
+ - POSA VOlume 4 - referenced
+ 
+ 
+ 
+Data Centric
+Repository
+ - POSA Volume 4 
+ 
+Layers
+ - Include Hexagonal Architecture
+ - PSA Volume 1 (http://my.safaribooksonline.com/9781118725269/c03_s5_htm?percentage=0.411320&reader=html#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODExMTg3MjUyNjklMkZjMDJfczJfaHRtJnF1ZXJ5PXJlcG9zaXRvcnk=)
+
+ 
+>>>>>>> 734d9616ea93cceabb95a427a59c07c095c4ef02
 Blackboard
+-- POSA Volume 1 (http://my.safaribooksonline.com/9781118725269/c03_s5_htm?percentage=0.411320&reader=html#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODExMTg3MjUyNjklMkZjMDJfczJfaHRtJnF1ZXJ5PXJlcG9zaXRvcnk=)
 
 Distributed
 -----------
