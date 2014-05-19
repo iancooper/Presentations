@@ -20,5 +20,6 @@ Distributed
 -----------
 Broker
 Invoker and Server Request Handler - See Chapter 10 POSA Volume 4 [Reactor/Proactor for implementation?] Our Event Consumer component equivalent?
+OK - pretty clear that this is a Message Dispatcher (even references Reactor pattern0 from PoEI): http://my.safaribooksonline.com/book/technology-management/0321200683/messaging-endpoints/ch10lev1sec8
 
 
